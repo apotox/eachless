@@ -8,7 +8,7 @@
     "clean": "rimraf lib",
     "test": "npm run lint && npm run cover",
     "test:only": "mocha --require @babel/register --require @babel/core --recursive",
-    "cover": "nyc --check-coverage npm run test:only",
+    "cover": "nyc --check-coverage --lines 80 npm run test:only",
     "lint": "eslint src test",
     "build": "webpack --mode=production --no-progress --hide-modules --config=webpack.config.js",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
