@@ -6,6 +6,7 @@
   "main": "./lib",
   "scripts": {
     "clean": "rimraf lib",
+    "test": "npm run lint && npm run cover",
     "test:only": "mocha --require @babel/register --require @babel/core --recursive",
     "cover": "nyc --check-coverage npm run test:only",
     "lint": "eslint src test",
