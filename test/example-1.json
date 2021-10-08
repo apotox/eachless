@@ -1,0 +1,30 @@
+{
+    "users": [{
+        "user": 1,
+        "relations": [{
+            "rates": [{
+                "label": "a",
+                "value": 3
+            }]
+        }]
+    },{
+        "user": 2,
+        "relations": [{
+            "rates": [{
+                "label": "a",
+                "value": 3
+            }]
+        }, {
+            "rates": [{
+                "label": "c",
+                "value": 3
+            },{
+                "label": "d",
+                "value": 3
+            },{
+                "label": "e",
+                "value": 3
+            }]
+        }]
+    }]
+}
