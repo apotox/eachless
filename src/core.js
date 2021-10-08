@@ -23,7 +23,7 @@ export function* Eachless(rootObject, properties = [], index = 0) {
             if (properties[index + 1]) {
                 yield* Eachless(item, properties, index + 1)
             } else {
-                yield i
+                yield item
             }
         }
     } else {
