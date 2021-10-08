@@ -1,6 +1,6 @@
 {
   "name": "eachless",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "flat the forEach hell",
   "module": "./lib",
   "main": "./lib",
@@ -11,7 +11,7 @@
     "cover": "nyc --check-coverage --lines 80 npm run test:only",
     "lint": "eslint src test",
     "build": "webpack --mode=production --no-progress --hide-modules --config=webpack.config.js",
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
+    "prepublish": "npm run clean && npm run test && npm run build"
   },
   "repository": {
     "type": "git",
