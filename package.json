@@ -1,6 +1,6 @@
 {
   "name": "eachless",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "flat the forEach hell",
   "module": "./lib",
   "main": "./lib",
