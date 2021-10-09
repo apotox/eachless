@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { Eachless } from '../src/core'
+import { Eachless } from '../src'
 import example from './example-1.json'
 
 
@@ -23,3 +23,6 @@ describe('Eachless', () => {
         })
     })
 })
+
+
+
