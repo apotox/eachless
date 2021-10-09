@@ -1,6 +1,15 @@
 ## Eachless
 
+
 - tiny package helps you avoid the nested loops (for-each hell)
+```
+#install
+npm i -s eachless
+```
+```js
+#usage
+var {Eachless} = require("eachless")
+```
 
 ```json
 
@@ -50,6 +59,5 @@ for(const label of labelsIterator){
 laptop
 smartphone
 keyboard
-
 ```
 
