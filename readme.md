@@ -2,16 +2,16 @@
 
 
 - tiny package helps you avoid the nested loops (for-each hell)
-```
-#install
+```sh
+# install
 npm i -s eachless
 ```
 ```js
-#usage
+// usage
 var {Eachless} = require("eachless")
 ```
 
-```json
+```js
 
 data = {
     "products":[{
@@ -56,8 +56,8 @@ for(const label of labelsIterator){
 - result:
 
 ```
-laptop
-smartphone
-keyboard
+- laptop
+- smartphone
+- keyboard
 ```
 
